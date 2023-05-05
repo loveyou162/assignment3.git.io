@@ -24,7 +24,6 @@ html {
 }
 
 section > .container {
-  /* width: 1170px; */
   margin: auto;
   display: block;
   padding: 30px 50px;
@@ -32,10 +31,10 @@ section > .container {
 
 #nav-bar {
   text-align: center;
-  margin-top: 16px;
 }
 
 /* phần banner */
+
 #banner {
   position: relative;
   text-align: center;
@@ -59,6 +58,7 @@ section > .container {
   object-fit: cover;
 }
 /* phần navbar */
+
 #nav-bar {
   position: relative;
 }
@@ -90,7 +90,6 @@ section > .container {
 }
 
 .info_name-img {
-  /* display: block; */
   border-radius: 50%;
   position: absolute;
   bottom: -66%;
@@ -111,7 +110,6 @@ section > .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: #5c5c5c;
-  margin-top: 16px;
 }
 
 #personal-info {
@@ -136,11 +134,9 @@ section > .container {
 .target-tittle-2 {
   padding: 20px;
   font-size: 0.8rem;
-  /* width: 100%; */
 }
 
 .section-title {
-  /* padding-left: 10px; */
   font-size: 1.8rem;
 }
 
@@ -157,16 +153,14 @@ section > .container {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 30%;
+  width: 15%;
+  padding: 0;
 }
 
 /* Thông tin nghề nghiệp */
 
-#job-info > .container {
-  /* display: block; */
+#__job-info > .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr 1fr;
   grid-column: 1/3;
   gap: 30px;
 }
@@ -175,7 +169,6 @@ section > .container {
   display: grid;
   grid-template-columns: 75% 25%;
   padding: 20px;
-  /* background-color: antiquewhite; */
   align-items: center;
   justify-items: start;
 }
@@ -235,81 +228,23 @@ section > .container {
 }
 
 /* Chứng chỉ phần thưởng */
-/* #certificate {
-}
-.certificate__item img {
-  width: 100%;
-}
-
-.section-title {
-}
-.certificate__box {
-}
-.certificate__box-minis {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin: 20px 0;
-  padding: 40px 0px;
-  position: relative;
-}
-
-.certificate__items {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  justify-content: space-between;
-  column-gap: 16px;
-}
-
-.certificate__item h3 {
-  font-weight: 500;
-}
-
-.certificate__item span ul li {
-  color: #444444;
-}
-
-.certificate__box-after::after {
-  content: "";
-  width: 1px;
-  height: 100px;
-  display: inline-block;
-  background-color: #c19172;
-  position: absolute;
-  right: 50%;
-  top: 20%;
-}
-
-.certificate__box-before::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background-color: #c19172;
-} */
 
 .job__info-detail-menu {
   padding: 0;
   color: var(--bs-gray-600);
 }
 /* Dự Án */
-/* .project__box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 20px;
-} */
 
 .project__box-content {
   margin-top: 16px !important;
+  height: 700px;
 }
 
 .project__box-content a > img {
   width: 100%;
 }
 .project-name {
-  /* width: 100%;c */
   height: 60px;
-  /* background-color: antiquewhite;c */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -323,7 +258,6 @@ section > .container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  /* background-color: antiquewhite; */
   padding: 12px;
   border: 1px solid #ccc;
   color: #585858;
@@ -344,7 +278,9 @@ section > .container {
 table {
   border-collapse: collapse;
   color: #585858;
-  height: 256px;
+}
+
+table tbody {
 }
 
 table tr {
