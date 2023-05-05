@@ -329,7 +329,7 @@ section > .container {
   color: #585858;
 }
 
-.project-description > a {
+.project-description > a:nth-child(2) {
   color: #fff;
   padding: 5px 12px;
   border-radius: 15px;
