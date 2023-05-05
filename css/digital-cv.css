@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.rows {
+  display: grid !important;
+  grid-template-columns: 2fr 1fr 1fr !important;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px;
+  margin: 16px;
+}
+.card-3 {
+  grid-area: 1/3/3/4;
+}
+
+.text-purple {
+  color: #4c10f2;
+}
