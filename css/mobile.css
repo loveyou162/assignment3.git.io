@@ -28,7 +28,7 @@
   .flex-sm-column {
     flex-direction: column !important;
   }
-  .info_name {
+  .info_name-in-menu {
     display: none !important;
   }
 }
